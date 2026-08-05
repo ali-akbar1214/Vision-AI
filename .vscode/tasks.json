@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start full stack",
+			"type": "shell",
+			"command": "cd server && npm start",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Start Express server",
+			"type": "shell",
+			"command": "Set-Location server; npm start",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Start FastAPI service",
+			"type": "shell",
+			"command": "cd fastapi-service && python main.py",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
