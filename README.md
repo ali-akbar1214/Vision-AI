@@ -313,12 +313,6 @@ The Vite dev server proxies all `/api` requests to the Express gateway (configur
 
 ---
 
-## 9. Known Gaps / Next Steps
-
-- `MONGODB_URI` is defined but no persistence layer is implemented yet — verification results and OCR history are not currently stored.
-- Confidence scores from the classifier (`vision_engine.classify_item`) rely on the model self-reporting a probability; this is not independently calibrated.
-- No automated test suite beyond `fastapi-service/test_pdf_processing.py`.
-- Single shared API key rather than per-user/service credentials.
 
 ---
 
